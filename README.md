@@ -1,7 +1,9 @@
 ````markdown name=README.md
 # lua_redis_api_service
 
-A lightweight, high-performance API service built on **NGINX** with embedded **Lua** scripting for interaction with a **Redis** backend. This repository enables rapid development of scalable key-value API endpoints, rate limiting, and more, all orchestrated via Docker Compose for seamless local deployment.
+A lightweight, high-performance API service built on **NGINX** with embedded **Lua** scripting for interaction with a **Redis** backend.
+This repository enables rapid development of scalable key-value API endpoints, rate limiting, and more,
+all orchestrated via Docker Compose for seamless local deployment.
 
 ## Features
 
