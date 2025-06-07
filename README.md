@@ -1,9 +1,6 @@
-````markdown name=README.md
 # lua_redis_api_service
 
-A lightweight, high-performance API service built on **NGINX** with embedded **Lua** scripting for interaction with a **Redis** backend.
-This repository enables rapid development of scalable key-value API endpoints, rate limiting, and more,
-all orchestrated via Docker Compose for seamless local deployment.
+A lightweight, high-performance API service built on **NGINX** with embedded **Lua** scripting for interaction with a **Redis** backend. This repository enables rapid development of scalable key-value API endpoints, rate limiting, and more, all orchestrated via Docker Compose for seamless local deployment.
 
 ## Features
 
@@ -71,7 +68,7 @@ curl "http://localhost:8080/get?key=mykey"
 
 **SET a value:**
 ```bash
-curl "http://localhost:8080/set?key=mykey&value=myvalue"
+curl "http://localhost:8080/set?key=mykey&&value=myvalue"
 ```
 
 ## Customization
@@ -81,8 +78,10 @@ curl "http://localhost:8080/set?key=mykey&value=myvalue"
 - Change Redis cluster logic in `redis_cluster.lua` for advanced deployments.
 
 
+
 ## Author
 
 Developed by [Ali Mirlohi](https://github.com/AliMirlohi).
 
 ---
+
